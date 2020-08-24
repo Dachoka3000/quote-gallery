@@ -7,7 +7,7 @@
                 {{quote.quotecontent}}
             </li>
             <button (click)='showMore(i)'>Show More</button>
-            <app-quote-detail *ngIf='quote.showDetails' [quote]='quote'></app-quote-detail>
+            <app-quote-detail *ngIf='quote.showDetails' [quote]='quote' (toDelete)='removeQuote($event,i)'></app-quote-detail>
 
         </div>
 
