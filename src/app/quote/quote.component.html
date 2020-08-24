@@ -2,10 +2,14 @@
     <h3>TOP PICKS</h3>
     <hr>
     <ul>
-        <li *ngFor='let quote of quotes'>
-            {{quote.quotecontent}}
-            <app-quote-detail [quote]='quote'></app-quote-detail>
-        </li>
+        <div *ngFor='let quote of quotes; let i= index'>
+            <li>
+                {{quote.quotecontent}}
+            </li>
+            <button (click)='showMore(i)'>Show More</button>
+            <app-quote-detail *ngIf='quote.showDetails' [quote]='quote'></app-quote-detail>
+
+        </div>
 
     </ul>
 
