@@ -26,6 +26,10 @@ export class QuoteComponent implements OnInit {
       this.quotes.splice(index,1)
     }
   }
+  addNewQuote(quote){
+    this.quotes.push(quote)    
+
+  } 
 
   constructor() { }
 
