@@ -19,9 +19,9 @@ Open the link in any web browser. Fill in the form to add your own quote; your q
 
 
 ## Setup Instructions
-Open the live link (https://machokadaisy.github.io/Quotes/) in any web browser to interact with the app.
+Open the live link (https://machokadaisy.github.io/quote-gallery/) in any web browser to interact with the app.
 Also, install angular cli, typescript and node.js on your terminal,
-Git clone https://github.com/MachokaDaisy/quote-gallery on your terminal, and open the folders in your editor. 
+Git clone https://github.com/MachokaDaisy/quote-gallery.git on your terminal, and open the folders in your editor. 
 
 
 ## Further help
@@ -29,7 +29,7 @@ Git clone https://github.com/MachokaDaisy/quote-gallery on your terminal, and op
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Contributions
-For any contributions, visit https://github.com/MachokaDaisy/quote-gallery. Feel free to contact me at machokadaisy@github.com
+For any contributions, visit https://github.com/MachokaDaisy/quote-gallery.git. Feel free to contact me at machokadaisy@github.com
 
 ## License
 [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
