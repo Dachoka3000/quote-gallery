@@ -27,7 +27,17 @@ export class QuoteComponent implements OnInit {
     }
   }
   addNewQuote(quote){
-    this.quotes.push(quote)    
+    quote.submissionDate= new Date()
+
+    if (quote.author==""){
+      alert("Name of author is required")
+    }else if (quote.quotecontent==""){
+      alert("please insert quote")
+    }else if (quote.name==""){
+      alert("Please insert your name")
+    } else{
+      this.quotes.push(quote)
+    }
 
   } 
 

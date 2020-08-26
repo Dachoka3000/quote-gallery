@@ -1,22 +1,25 @@
 <div class="container">
     <hr>
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
             <h3>TOP PICKS</h3>
 
             <ul>
                 <div *ngFor='let quote of quotes; let i= index'>
-                    <li>
-                        {{quote.quotecontent}}
-                    </li>
-                    <button (click)='showMore(i)'>Show More</button>
-                    <app-quote-detail *ngIf='quote.showDetails' [quote]='quote' (toDelete)='removeQuote($event,i)'></app-quote-detail>
-
+                    <div class="card">
+                        <div class="card-body">
+                            <li>
+                                {{quote.quotecontent}}
+                            </li>
+                            <button (click)='showMore(i)'>Show More</button>
+                            <app-quote-detail *ngIf='quote.showDetails' [quote]='quote' (toDelete)='removeQuote($event,i)'></app-quote-detail>
+                        </div>
+                    </div>
                 </div>
 
             </ul>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
             <app-quote-form (newQuote)="addNewQuote($event)"></app-quote-form>
         </div>
     </div>
