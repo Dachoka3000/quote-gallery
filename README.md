@@ -14,15 +14,24 @@ HTML
 Bootstrap
 CSS
 
+## BDD
+Open the link in any web browser. Fill in the form to add your own quote; your quote will be displayed on the webpage after pressing the 'add quote' button. Browse through the collection of quotes. Upvote on the quotes that you find insightful and downvote on the quotes you don't like. Each quote has an initial upvote value and downvote value of zero. These values change when the user upvotes or downvotes on a quote, and the final vote count is displayed on the webpage.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Setup Instructions
+Open the live link (https://machokadaisy.github.io/Quotes/) in any web browser to interact with the app.
+Also, install angular cli, typescript and node.js on your terminal,
+Git clone https://github.com/MachokaDaisy/quote-gallery on your terminal, and open the folders in your editor. 
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Contributions
+For any contributions, visit https://github.com/MachokaDaisy/quote-gallery. Feel free to contact me at machokadaisy@github.com
+
+## License
+[![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Copyright (c) 2020 **Machoka Daisy**
+
