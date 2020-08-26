@@ -1,6 +1,7 @@
 <ul>
     <li>Authored by {{quote.author}}</li>
     <li>Submitted by {{quote.name}}</li>
+    <li>Added {{quote.submissionDate|dateCount}} days ago</li>
 </ul>
 <app-votes></app-votes>
 <button (click)='deleteQuote(true)'><i class="fa fa-trash"></i></button>
