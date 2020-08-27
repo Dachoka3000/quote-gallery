@@ -1,13 +1,21 @@
 .card {
-    border: 1px solid white;
-    background-image: url(../../assets/images/cardbackground.jpg);
+    font-size: larger;
+    font-style: oblique ;
+    font-weight: bold;
+    border: 5px solid white;
+    background-image: url(../../assets/images/poppies.webp);
+    background-color: salmon;
     margin-bottom: 10px;
 }
     
 .container {
-    background-image: url(../../assets/images/blueflowers.jpg);
+    /* background-image: url(../../assets/images/poppies.webp); */
+    background-size: cover;
+    background-repeat: repeat-y;
     align-items: center;
 }
 h3 {
+    font-weight: bolder;
     text-align: center;
+    color: black;
 }

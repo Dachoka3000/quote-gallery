@@ -1,9 +1,15 @@
 .container {
-    color: white;
     text-align: center;
     align-items: center;
     font-weight: bolder;
 }
 label {
-    background-color: green;
+    color: black;
+    font-size: larger;
+}
+.quiz {
+    background-size: cover;
+}
+h2 {
+    color: black;
 }

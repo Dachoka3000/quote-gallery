@@ -5,3 +5,20 @@ h2 {
     text-align: center;
     font-style: italic;
 }
+.container-fluid {
+    background-image: url(../assets/images/rose.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+.jumbotron {
+    color: black;
+    align-items: center;
+    background-color: transparent;
+    border-bottom: 3px solid black;
+    
+}
+.container {
+    font-size: 0.05cm;
+    background-color: white;
+    border:solid white;
+}

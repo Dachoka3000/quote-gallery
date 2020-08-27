@@ -18,6 +18,12 @@ export class VotesComponent implements OnInit {
   downvote(){
     this.votedown= this.votedown+1;
   }
+  mostVotes(){
+  //  likes= [];
+    // this.likes.push(this.voteup);
+
+
+  }
 
   constructor() { }
 

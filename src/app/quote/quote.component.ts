@@ -23,7 +23,8 @@ export class QuoteComponent implements OnInit {
 
   removeQuote(toDelete, index){
     if(toDelete){
-      this.quotes.splice(index,1)
+      this.quotes.splice(index,1);
+      alert("This quote will be deleted!")
     }
   }
   addNewQuote(quote){
@@ -36,10 +37,12 @@ export class QuoteComponent implements OnInit {
     }else if (quote.name==""){
       alert("Please insert your name")
     } else{
-      this.quotes.push(quote)
+      this.quotes.push(quote);
+      alert("Your quote has been added")
     }
 
   } 
+  
 
   constructor() { }
 

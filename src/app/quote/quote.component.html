@@ -8,7 +8,7 @@
                 <div *ngFor='let quote of quotes; let i= index'>
                     <div class="card">
                         <div class="card-body">
-                            <li>
+                            <li appHighlight>
                                 {{quote.quotecontent}}
                             </li>
                             <button (click)='showMore(i)'>Show More</button>
