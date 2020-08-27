@@ -1,10 +1,12 @@
-<ul>
-    <li>Authored by {{quote.author}}</li>
-    <li>Submitted by {{quote.name}}</li>
-    <li>Added {{quote.submissionDate|dateCount}} days ago</li>
-</ul>
-<app-votes></app-votes>
-<button (click)='deleteQuote(true)'><i class="fa fa-trash"></i></button>
+<div class="detail">
+    <ul>
+        <li>Authored by {{quote.author}}</li>
+        <li>Submitted by {{quote.name}}</li>
+        <li>Added {{quote.submissionDate|dateCount}} days ago</li>
+    </ul><br>
+    <app-votes></app-votes><br>
+    <button (click)='deleteQuote(true)'><i class="fa fa-trash"></i></button>
+</div>
 
 
 

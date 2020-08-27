@@ -1,0 +1,9 @@
+.container {
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+}
+label {
+    background-color: green;
+}

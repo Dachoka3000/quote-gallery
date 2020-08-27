@@ -1,4 +1,13 @@
-.card-body {
-    padding-bottom: 20px;
-    margin-bottom: 30px;
+.card {
+    border: 1px solid white;
+    background-image: url(../../assets/images/cardbackground.jpg);
+    margin-bottom: 10px;
+}
+    
+.container {
+    background-image: url(../../assets/images/blueflowers.jpg);
+    align-items: center;
+}
+h3 {
+    text-align: center;
 }
